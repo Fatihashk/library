@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-BOOK</title>
+    <link rel="stylesheet" href="fati.css">
+    <script src="https://kit.fontawesome.com/7729018d03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <span>e-BOOK</span>
+
+
+            <img src="logo (2).png" alt="" style="width: 50px;height: 50px; position: absolute; margin: 4px 0 0 50px;">
+        </div>
+
+        <div class="menu-bar">
+            <ul>
+                <li> <a href="#Home">Accueil</a> </li>
+
+                <li> <a href="#">Livres</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#Arabic-Books">Livres Arabes
+                                </a></li>
+                            <li><a href="#French-Books">Livres Français
+                                </a></li>
+                            <li><a href="#English-Books">Livres D'anglais</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li> <a href="#Contact">Contact</a> </li>
+           
+
+            </ul>
+
+            <button class="dark fas fa-moon" onclick="myFunction()"></button>
+
+        </div>
+    
+        
+    </header>
+   
+    <section class="Home" id="Home">
+        <div class="content">
+
+            <h2>Bibliothèque de livres pour tous!</h2>
+        </div>
+    </section>
+    <div id="Arabic-Books">
+        <h1 class="darkColor">Arabic-Books</h1>
+    </div>
+    <main class="image">
+        <article>
+            <img src="arabic1.jpeg" alt="">
+            <div class="text">
+                <h4>فاتتني صلاة</h4>
+                <div class="image-info">
+
+                    <div class="voting">
+                        <button onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                   
+                    <div>
+                        <a href="فاتتني صلاة .pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <img src="arabic2.jpg" alt="">
+            <div class="text">
+                <h4>
+                    رجال في الشمس</h4>
+
+                <div class="image-info">
+                    <div class="voting">
+                        <button onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="رجال في الشمس.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="arabic3.jpeg" alt="">
+            <div class="text">
+                <h4> فن اللامبالاة </h4>
+                <div class="image-info">
+                    <div class="voting">
+                        <button onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+
+                    <div>
+                        <a href="فن اللامبالاة.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="arabic4.jpeg" alt="">
+            <div class="text">
+                <h4>الخبز الحافي</h4>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="- الخبز الحافي.pdf" class="link">voir</a>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="arabic5.jpg" alt="">
+            <div class="text">
+                <h4>ساق البامبو</h4>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="ساق البامبو.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="arabic6.jpg" alt="">
+            <div class="text">
+                <h4>ذاكرة الجسد</h4>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="ذاكرة الجسد.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="arabic7.png" alt="">
+            <div class="text">
+                <h4>سمرنقد</h4>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="سمرقند.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="arabic8.png" alt="">
+            <div class="text">
+                <h4>الحب في المنفى</h4>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="الحب في المنفى.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+    </div>
+    <div id="French-Books">
+       
+        <h1 class="darkColor">French-Books</h1>
+    </div>
+    <main class="image">
+        <article>
+            <img src="FR1.jpg" alt="">
+            <div class="text">
+                <h3> Les fleurs du mal</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="les fleurs.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR2.jpg" alt="">
+            <div class="text">
+                <h3> Le pére Goriot</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="Balzac.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR3.jpg" alt="">
+            <div class="text">
+                <h3> Candide</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="candide.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR4.jpg" alt="">
+            <div class="text">
+                <h3> </h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="les fleurs.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR5.jfif" alt="">
+            <div class="text">
+                <h3> Le Petit Prince</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="le petit prince.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR6.jfif" alt="">
+            <div class="text">
+                <h3> La Kabbale Revelee</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="la kabbale revelee.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR7.jpg" alt="">
+            <div class="text">
+                <h3>Miserables </h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="miserables.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="FR8.jfif" alt="">
+            <div class="text">
+                <h3>Émile Zola Nana </h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="zola.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+    </main>
+    <div id="English-Books">
+        <h1 class="darkColor">English-Books</h1>
+    </div>
+    <main class="image">
+        <article>
+            <img src="en1.jpg" alt="">
+            <div class="text">
+                <h3>Eat Pray Love</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="Eat Pray Love Book on.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="en2.jpg" alt="">
+            <div class="text">
+                <h3>Sense and Sensibility</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="Sense and Sensibility.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="en3.jpg" alt="">
+            <div class="text">
+                <h3>The Story of the Mind</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="The Story of the Mind.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="en4.jfif" alt="">
+            <div class="text">
+                <h3>all the light we cannot see</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="all the light we cannot see.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <img src="en5.jpg" alt="">
+            <div class="text">
+                <h3>Women in Love</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="Women in Love.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article> <img src="en6.jpg" alt="">
+            <div class="text">
+                <h3>The Martian Cabal</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="The-Martian-Cabal.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article><img src="en7.jpg" alt="">
+            <div class="text">
+                <h3>Road</h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="The-Road.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article><img src="en8.jpg" alt="">
+            <div class="text">
+                <h3>james and the giant peach </h3>
+                <div class="image-info">
+                    <div class="voting">
+                        <button  onclick="like(this)">
+
+                            <i class="fas fa-thumbs-up"></i></button>
+                        <input type="number" name="" id="input1" value="0">
+                        <button onclick="dislike(this)">
+
+                            <i class="fas fa-thumbs-down"></i>
+                        </button>
+                        <input type="number" name="" id="input2" value="0">
+                    </div>
+                    <div>
+                        <a href="james.pdf" class="link">voir</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+<footer>
+    <h2 style="text-align: center;">Formulaire d'inscription</h2>
+    <form name="RegForm"  onsubmit="return login()" method="post" class="login">
+      <div>
+        <label for="Nom">Nom:</label>
+        <input type="text" id="Nom" size="40" name="Nom" />
+      </div>
+      <br />
+      <div>
+        <label for="adresse">Adresse:</label>
+        <input type="text" id="adresse" size="40" name="Adresse" />
+      </div>
+      <br />
+      <div>
+        <label for="E-mail" l>Adresse électronique:</label>
+        <input type="text" id="E-mail" size="40" name="Email" />
+      </div>
+      <br />
+      <div>
+        <label for="Mot de passe">Mot de passe:</label>
+        <input type="text" id="Mot de passe" size="40" name="Mot de passe" />
+      </div>
+      <br />
+      <div>
+        <label for="Téléphone">Téléphone: </label>
+        <input type="text" id="Téléphone" size="40" name="Téléphone" />
+      </div>
+      <br />
+   
+      <div>
+        <label for="commentaire">Commentaires: </label>
+        <textarea cols="42" id="commentaire" rows="5" name="Commentaire"></textarea>
+      </div>
+      <div class="buttons">
+        <input type="submit" value="Envoyer" name="Envoyer" />
+        <input type="reset" value="Réinitialiser" name="Réinitialiser" />
+      </div>
+    </form>
+</footer>
+
+    <script src="library.js">
+
+    </script>
+</body>
+
+</html>

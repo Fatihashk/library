@@ -1,0 +1,272 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark:active {
+  background-color: #151b25;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.dark {
+  padding: 9px 14px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #214358;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.dark:hover {
+  background-color: #214358;
+}
+
+.menu-bar {
+  text-align: right;
+  height: 55px;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  margin-top: 4px;
+}
+.menu-bar ul li {
+  width: 150px;
+  margin: 2px 1px;
+  padding-right: 80px;
+  font-size: 24px;
+}
+.menu-bar ul li a {
+  color: #82a4e3;
+  text-decoration: none;
+  justify-content: space-between;
+  font-family: cursive;
+  text-align: center;
+  font-size: 23px;
+}
+.menu-bar ul li :hover {
+  color: rgb(141, 100, 99);
+  font-size: 25px;
+}
+.sub-menu {
+  display: none;
+  background-color: white;
+}
+.menu-bar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.menu-bar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu ul li {
+  width: 222px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+  color: rgb(141, 100, 99);
+}
+
+section {
+  padding: 290px 2%;
+}
+
+.Home {
+  background-image: url("back2.jfif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.content {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.content h2 {
+  margin-top: 10px;
+  font-size: 6rem;
+  color: black;
+}
+.content p {
+  font-size: 2rem;
+  color: black;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 90px;
+  font-weight: lighter;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  color: #82a4e3;
+  max-width: 100%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: "Caveat", cursive;
+}
+h4 {
+  font-family: amiri;
+}
+.image {
+  margin: 8px;
+  margin-left: 56px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(225px, 1fr));
+  row-gap: 50px;
+  justify-content: center;
+}
+.image > article {
+  background-color: #eeee;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+  justify-content: center;
+}
+.image > article:hover {
+  transform: translateX(2px);
+  box-shadow: 2px 2px 30px 0px;
+}
+.image > article img {
+  width: 50%;
+  height: 50%;
+}
+
+.text {
+  font-size: 20px;
+  font-family: amiri;
+  text-align: center;
+  text-shadow: 1px 1px 2px 1px black;
+}
+
+.image-info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeee;
+  font-size: 20px;
+  color: rgb(141, 100, 99);
+  font-family: cursive;
+}
+.image-info i {
+  font-size: 0.9em;
+  margin-left: 2px;
+}
+.link {
+  text-decoration: none;
+  color: rgb(141, 100, 99);
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+span {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-weight: bolder;
+  cursor: pointer;
+  position: absolute;
+  color: black;
+  padding: 3px 0 0 7rem;
+  font-size: 25px;
+  top: 4px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #82a4e3;
+}
+
+.voting {
+  position: relative;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+.voting input {
+  width: 26px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 0 2px;
+  pointer-events: none;
+}
+.voting button {
+  color: #82a4e3;
+  background: none;
+  border: none;
+  font-size: 25px;
+  padding: 0 4px;
+  margin: 4px 0;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.voting button:active {
+  color: #214358;
+  transform: scale(1.2);
+}
+
+
+.darkColor{
+  color: #82a4e3;
+}
+.login {
+  margin-right: 50%;
+  font-weight: bold;
+  text-align: left;
+  font-family: sans-serif, bold, Arial, Helvetica;
+  font-size: 15px;
+}
+.buttons {
+  display: flex;
+  align-items: left;
+  width: 50%;
+
+}
+div input {
+  margin-right: 10px;
+}
+form {
+  margin: 0 auto;
+  width: 300px;
+  height: 20vh;
+}
+form input {
+  padding: 5px;
+}
+form select {
+  background-color: #82a4e3;
+  padding: 5px;
+}
+form textarea {
+  padding: 8px;
+  margin-bottom: 5px;
+}
+form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
